@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Football Fan Zone - News</title>
+  <link rel="stylesheet" href="styles.css"> <!-- External CSS -->
+  <style>
+    /* Internal CSS */
+    .section-title {
+      background: #ddd;
+      padding: 8px;
+      margin: 10px 0;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <!-- Header & Navbar -->
+  <header>
+    <h1>Football Fan Zone <span style="color:brown;">★</span></h1> <!-- Inline CSS -->
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="teams.html">Teams</a>
+      <a href="news.html" class="active">News</a>
+      <a href="forum.html">Forum</a>
+    </nav>
+  </header>
+
+  <!-- News Section -->
+  <section id="news-header">
+    <h2 class="section-title">News and Highlights</h2>
+    <p>Latest game recaps, highlight videos, and analysis</p>
+  </section>
+
+  <!-- Social Share (paste after the hero section or inside a featured article) -->
+  <div class="social-sharing">
+    <button id="share-facebook" data-url="" data-text="">Share on Facebook</button>
+    <button id="share-twitter"  data-url="" data-text="">Share on Twitter</button>
+  </div>
+
+  <!-- Featured Story -->
+  <section id="featured-news" class="featured-story">
+    <h3 class="section-title">Featured Story</h3>
+    <div class="story">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzLLCiE-F4-z6-l0hmDCs29TdvoaXq7d_ABw&s" alt="Bills Vs Ravens">
+        <p>Bills win in game-ending FG 41-40</p>
+        <p>Josh Allen throws for 400 yards, 2 TDs</p>
+        <button class="btn blue">Watch Video</button>
+        <button class="btn">Read More</button>
+      </div>
+  </section>
+
+  <!-- Tabs -->
+  <section id="news-tabs" class="tabs">
+    <button class="tab active">All</button>
+    <button class="tab">Game Recaps</button>
+    <button class="tab">Analysis</button>
+    <button class="tab">Injuries</button>
+  </section>
+
+  <!-- More Stories -->
+  <section class="more-stories">
+    <div class="story">
+      <img src="http://res.cloudinary.com/ybmedia/image/upload/c_crop,e_improve,h_1123,w_2000,x_0,y_135/c_fill,f_auto,h_900,q_auto,w_1600/v1/m/8/1/81167cd09791f889f4c1c3c6c9f65144c12c7da3/buffalo-bills-wide-receiver-joshua-palmer-gets.jpg" alt="Alexander struggles">
+      <div>
+        <h4>Alexander Struggles vs Bills</h4>
+        <p>Jaire Alexander misses game-winning tackle</p>
+        <p>13 Hours Ago</p>
+        <button class="btn">Read More</button>
+        <p>Watch James Cook’s 51 yard run!</p>
+      </div>
+    </div>
+    <button class="btn blue">Watch</button>
+  </section>
+<!-- ===== Footer ===== -->
+<footer>
+  <p>&copy; 2025 Football Fan Zone. All Rights Reserved.</p>
+  <div class="footer-links">
+    <a href="#">Privacy Policy</a> | 
+    <a href="#">Terms of Use</a> | 
+    <a href="#">Contact</a>
+  </div>
+</footer>
+</body>
+</html>

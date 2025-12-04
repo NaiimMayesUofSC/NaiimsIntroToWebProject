@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Football Fan Zone - Home</title>
+  <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.7.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+  <link rel="stylesheet" href="styles.css"> <!-- External CSS -->
+  <style>
+    /* Internal CSS */
+    .welcome-text {
+      text-align: center;
+      font-size: 1.2em;
+      margin: 15px 0;
+    }
+  </style>
+</head>
+<body>
+  <!-- Header & Navbar -->
+  <header>
+    <h1>Football Fan Zone <span style="color:brown;">★</span></h1> <!-- Inline CSS -->
+    <nav>
+      <a href="index.html" class="active">Home</a>
+      <a href="teams.html">Teams</a>
+      <a href="news.html">News</a>
+      <a href="forum.html">Forum</a>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="hero-section" class="hero">
+    <img src="https://ugawire.usatoday.com/gcdn/authoring/images/smg/2025/02/17/SUGA/79015525007-31-78590.jpeg?crop=4853,2730,x0,y0&width=3200&height=1801&format=pjpg&auto=webp" alt="Football Action">
+    <p class="welcome-text">Welcome to Football Fan Zone!<br>This is your hub for football!</p>
+  </section>
+
+  <!-- Social Share (paste after the hero section or inside a featured article) -->
+  <div class="social-sharing">
+    <button id="share-facebook" data-url="" data-text="">Share on Facebook</button>
+    <button id="share-twitter"  data-url="" data-text="">Share on Twitter</button>
+  </div>
+
+
+  <!-- Featured Content -->
+  <section id="featured-section" class="featured">
+    <h2>Featured Content</h2>
+    <div class="cards">
+      <div class="card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvVggnDiR9Py_DBzrsjnckOjX-M_m79oS9DKWEiJy5DNpzfu5kaBLkVoxCrOF-Plybbo0&usqp=CAU" alt="Player trade">
+        <button class="btn">Read More</button>
+      </div>
+      <div class="card">
+        <img src="https://operations.nfl.com/media/5722/playoffpercentages-1.jpg?mode=max&width=995" alt="Team stats">
+        <button class="btn">Read More</button>
+      </div>
+      <div class="card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbQdydGxFnuhs1LgTUU48mvJmnlccW7VJYPQ&s" alt="Pressure Rate">
+        <button class="btn">Read More</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Updates -->
+ <section id="updates-section" class="updates">
+    <h2>Recent Updates</h2>
+    <p>Game Result: Raiders 20 @ Patriots 13</p>
+    <p>Injury Report: CB Christian Gonzalez OUT vs Raiders</p>
+  </section>
+<!-- ===== Footer ===== -->
+<footer>
+  <p>&copy; 2025 Football Fan Zone. All Rights Reserved.</p>
+  <div class="footer-links">
+    <a href="#">Privacy Policy</a> | 
+    <a href="#">Terms of Use</a> | 
+    <a href="#">Contact</a>
+  </div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
